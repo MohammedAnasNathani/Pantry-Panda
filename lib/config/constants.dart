@@ -1,13 +1,14 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 
 class AppConstants {
-  // 🔑 API KEY
-  static const String geminiApiKey = 'AIzaSyDPpNssdgGF6yug8zldT2oWzs50xwWeffk';
+  // 🔑 API KEY (SECURE LOAD)
+  static String get geminiApiKey => dotenv.env['GEMINI_API_KEY'] ?? "";
 
   // 🤖 AI MODEL
   static const String modelName = 'gemini-2.5-flash';
 
-  // 💰 ADMOB TEST IDS
+  // 💰 ADMOB TEST IDS (These are test ids)
   static const String bannerAdUnitId = 'ca-app-pub-3940256099942544/6300978111';
   static const String nativeAdUnitId = 'ca-app-pub-3940256099942544/2247696110';
   static const String rewardedAdUnitId = 'ca-app-pub-3940256099942544/5224354917';

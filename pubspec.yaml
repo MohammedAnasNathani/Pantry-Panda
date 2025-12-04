@@ -42,6 +42,7 @@ dependencies:
   flutter_tts: ^4.0.0      # <--- UPGRADED
   vibration: ^3.1.0        # <--- UPGRADED (Fixes the Java Error)
   home_widget: ^0.7.0      # <--- UPGRADED
+  flutter_dotenv: ^6.0.0
 
 dev_dependencies:
   flutter_test:
@@ -52,6 +53,7 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   assets:
+    - .env
     - assets/images/
     - assets/icons/
     - assets/animations/
