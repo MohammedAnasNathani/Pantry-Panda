@@ -1,4 +1,4 @@
-# pantry_panda_v2
+# pantry_panda_v1
 
 A new Flutter project.
 
