@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "671572102202",
+    "project_id": "pantry-panda-v2",
+    "storage_bucket": "pantry-panda-v2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:671572102202:android:540d36737e93a371017903",
+        "android_client_info": {
+          "package_name": "com.example.pantry_panda_v2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "671572102202-102e08on1vilprl009pdj10hp9knnibj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDq65FUsft-cMpyquBAgFUNA31nAxgtOMw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "671572102202-102e08on1vilprl009pdj10hp9knnibj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
